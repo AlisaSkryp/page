@@ -16,8 +16,7 @@ body {
 }
 
 .discount-button button {
-    width: 90%;
-    padding: 17px 65px;
+    padding: 18px 115px;
     text-decoration: none;
     background: #0000;
     font-style: normal;
@@ -30,6 +29,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
+    transition: width 2s, height 4s;
 }
 
 .discount-button:hover {
@@ -40,7 +40,7 @@ body {
     margin-top: 30px;
 }
 
-input[type=text] {
+.input {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -48,7 +48,6 @@ input[type=text] {
     line-height: 25px;
     color: #000000!important;
     background: #F6F7FF;
-    ;
     border-radius: 8px;
     width: 90%;
     padding-bottom: 11px;
@@ -60,21 +59,14 @@ input[type=text] {
     border: 1px solid #7879F1;
 }
 
-input[type=text]:active {
+.input:active,
+.dropdown__input:active {
     border: 2px solid #7879F1;
     color: #000000;
 }
 
 .container__input_empty {
     color: #7E7E7E;
-}
-
-.container__input_active:active {
-    border: 2px solid #7879F1;
-}
-
-input[type=checkbox] {
-    margin-top: 4px;
 }
 
 .dash {

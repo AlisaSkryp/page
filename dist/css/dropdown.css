@@ -1,5 +1,24 @@
 /* Dropdown */
 
+.dropdown__input {
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000!important;
+    background: #F6F7FF;
+    border-radius: 8px;
+    width: 90%;
+    padding-bottom: 11px;
+    padding-left: 24px;
+    padding-top: 11px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #7879F1;
+}
+
 .dropdown {
     width: 100%;
     position: relative;
